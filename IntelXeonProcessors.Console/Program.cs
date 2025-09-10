@@ -34,7 +34,7 @@ static async Task RunApp(IServiceProvider services)
 
     Console.WriteLine("✨ Sorgulama tamamlandı! ✨");
 }
-
+// Print islemi bu metod da yapiliyor.
 static void PrintProcessorDetails(Processor processor)
 {
     if (processor == null) return;
