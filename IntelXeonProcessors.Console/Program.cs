@@ -3,6 +3,7 @@ using Domain.Entities;
 using Infrastructure.Repository;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System;
 
 // Modern .NET'te Dependency Injection (DI) ve konfigürasyon için HostBuilder kullanılır.
 var builder = Host.CreateApplicationBuilder(args);
@@ -37,13 +38,23 @@ static async Task RunApp(IServiceProvider services)
 // Print islemi bu metod da yapiliyor.
 static void PrintProcessorDetails(Processor processor)
 {
-    if (processor == null) return;
+    if (processor == null) return; // Best practice: Fast-fail yaklasimi. Amac: hatalardan kurtulmak 
 
     Console.WriteLine($"Model: {processor.ProductCollection} ({processor.ProcessorNumber})");
     Console.WriteLine($"  Çekirdek/İzlek: {processor.TotalCores}/{processor.TotalThreads}");
-    Console.WriteLine($"  Maks. Turbo Frekans: {processor.MaxTurboFrequencyGHz} GHz");
+    Console.WriteLine($"  Maks. Turbo Frekans: {processor.MaxTurboFrequencyGHz} / Base Frekans:{processor.ProcessorBaseFrequencyGHz} GHz");
     Console.WriteLine($"  TDP: {processor.TdpWatt}W");
     Console.WriteLine($"  Fiyat: ${processor.RecommendedCustomerPrice}");
+    Console.WriteLine($"  Cache: {processor.Cache}");
+    Console.WriteLine($"  Code name: {processor.CodeName}");
+    Console.WriteLine($"  Launch date: {processor.LaunchDate}");
+    Console.WriteLine($"  Max memory size (GB): {processor.MaxMemorySizeGB}");
+    Console.WriteLine($"  Memory types: {processor.MemoryTypes}");
+    Console.WriteLine($"  Max. Memory Speed: {processor.MaximumMemorySpeedMHz}");
+    Console.WriteLine($"  Max Memory Channel: {processor.MaxMemoryChannels}");
+    Console.WriteLine($"  ECC: {processor.EccMemorySupported}");
+    Console.WriteLine($"  ULR: {processor.URL}");
+
     Console.WriteLine(); // Boşluk bırak
 }
 

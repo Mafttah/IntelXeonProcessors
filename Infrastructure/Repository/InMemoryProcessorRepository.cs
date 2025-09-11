@@ -54,7 +54,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
         },
 
         new() {
-            ProductCollection = "3rd Gen Intel® Xeon® Scalable Processors",
+            ProductCollection = "Intel® Xeon® Platinum 8352V Processor",
             CodeName = "Products formerly Ice Lake",
             ProcessorNumber = "8352V",
             RecommendedCustomerPrice = 3993.00m,
@@ -74,7 +74,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
         },
 
         new() {
-            ProductCollection = "3rd Gen Intel® Xeon® Scalable Processors",
+            ProductCollection = "Intel® Xeon® Gold 5318N Processor",
             CodeName = "Products formerly Ice Lake",
             ProcessorNumber = "5318N",
             RecommendedCustomerPrice = 1602.00m,
@@ -84,7 +84,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
             ProcessorBaseFrequencyGHz = 2.1,
             Cache = "36 MB",
             TdpWatt = 150,
-            URL = "",
+            URL = "https://www.intel.com/content/www/us/en/products/sku/215271/intel-xeon-gold-5318y-processor-36m-cache-2-10-ghz/specifications.html?wapkw=Intel%C2%AE%20Xeon%C2%AE%20Gold%205318N%20Processor",
             LaunchDate = new DateTime(2021, 6, 2),
             MaxMemorySizeGB = 6, // 4 TB
             MemoryTypes = "DDR4-2667",
@@ -94,7 +94,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
         },
 
         new() {
-            ProductCollection = "3rd Gen Intel® Xeon® Scalable Processors",
+            ProductCollection = "Intel® Xeon® Gold 6312U Processor",
             CodeName = "Products formerly Ice Lake",
             ProcessorNumber = "6312U",
             RecommendedCustomerPrice = 1692.00m,
@@ -104,7 +104,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
             ProcessorBaseFrequencyGHz = 2.4,
             Cache = "36 MB",
             TdpWatt = 185,
-            URL = "",
+            URL = "https://www.intel.com/content/www/us/en/products/sku/215282/intel-xeon-gold-6312u-processor-36m-cache-2-40-ghz/specifications.html?wapkw=Intel%C2%AE%20Xeon%C2%AE%20Gold%206312U%20Processor",
             LaunchDate = new DateTime(2021, 7, 7),
             MaxMemorySizeGB = 6, // 4 TB
             MemoryTypes = "DDR4-3200",
@@ -114,7 +114,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
         },
 
         new() {
-            ProductCollection = "3rd Gen Intel® Xeon® Scalable Processors",
+            ProductCollection = "Intel® Xeon® Gold 5320T Processor",
             CodeName = "Products formerly Ice Lake",
             ProcessorNumber = "5320T",
             RecommendedCustomerPrice = 1977.00m,
@@ -124,7 +124,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
             ProcessorBaseFrequencyGHz = 2.3,
             Cache = "30 MB",
             TdpWatt = 150,
-            URL = "",
+            URL = "https://www.intel.com/content/www/us/en/products/sku/215284/intel-xeon-gold-5320t-processor-30m-cache-2-30-ghz/specifications.html?wapkw=Intel%C2%AE%20Xeon%C2%AE%20Gold%205320T%20Processor",
             LaunchDate = new DateTime(2021, 6, 7),
             MaxMemorySizeGB = 6, // 4 TB
             MemoryTypes = "DDR4-2933",
@@ -134,7 +134,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
         },
 
         new() {
-            ProductCollection = "3rd Gen Intel® Xeon® Scalable Processors",
+            ProductCollection = "Intel® Xeon® Gold 6342 Processor",
             CodeName = "Products formerly Ice Lake",
             ProcessorNumber = "6342",
             RecommendedCustomerPrice = 2977.00m,
@@ -144,7 +144,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
             ProcessorBaseFrequencyGHz = 2.8,
             Cache = "36 MB",
             TdpWatt = 230,
-            URL = "",
+            URL = "https://www.intel.com/content/www/us/en/products/sku/215276/intel-xeon-gold-6342-processor-36m-cache-2-80-ghz/specifications.html?wapkw=Intel%C2%AE%20Xeon%C2%AE%20Gold%206342%20Processor",
             LaunchDate = new DateTime(2021, 5, 10),
             MaxMemorySizeGB = 6, // 4 TB
             MemoryTypes = "DDR4-3200",
@@ -154,7 +154,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
         },
 
         new() {
-            ProductCollection = "3rd Gen Intel® Xeon® Scalable Processors",
+            ProductCollection = "Intel® Xeon® Platinum 8352M Processor",
             CodeName = "Products formerly Ice Lake",
             ProcessorNumber = "8352M",
             RecommendedCustomerPrice = 4471.00m,
@@ -164,7 +164,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
             ProcessorBaseFrequencyGHz = 2.3,
             Cache = "48 Mb",
             TdpWatt = 185,
-            URL = "",
+            URL = "https://www.intel.com/content/www/us/en/products/sku/217215/intel-xeon-platinum-8352m-processor-48m-cache-2-30-ghz/specifications.html?wapkw=Intel%C2%AE%20Xeon%C2%AE%20Platinum%208352M%20Processor",
             LaunchDate = new DateTime(2021, 8, 10),
             MaxMemorySizeGB = 6, // 4 TB
             MemoryTypes = "DDR4-3200",
@@ -174,7 +174,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
         },
 
         new() {
-            ProductCollection = "3rd Gen Intel® Xeon® Scalable Processors",
+            ProductCollection = "Intel® Xeon® Gold 5320 Processor",
             CodeName = "Products formerly Ice Lake",
             ProcessorNumber = "5320",
             RecommendedCustomerPrice = 1780.00m-1792.00m,
@@ -184,7 +184,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
             ProcessorBaseFrequencyGHz = 2.2,
             Cache = "39 MB",
             TdpWatt = 185,
-            URL = "",
+            URL = "https://www.intel.com/content/www/us/en/products/sku/215285/intel-xeon-gold-5320-processor-39m-cache-2-20-ghz/specifications.html?wapkw=Intel%C2%AE%20Xeon%C2%AE%20Gold%205320%20Processor",
             LaunchDate = new DateTime(2021, 6, 15),
             MaxMemorySizeGB = 6, // 4 TB
             MemoryTypes = "DDR4-2933",
@@ -194,7 +194,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
         },
 
         new() {
-            ProductCollection = "3rd Gen Intel® Xeon® Scalable Processors",
+            ProductCollection = "Intel® Xeon® Platinum 8362 Processor",
             CodeName = "Products formerly Ice Lake",
             ProcessorNumber = "8362",
             RecommendedCustomerPrice = 6236.00m,
@@ -204,7 +204,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
             ProcessorBaseFrequencyGHz = 2.8,
             Cache = "48 MB",
             TdpWatt = 265,
-            URL = "",
+            URL = "https://www.intel.com/content/www/us/en/products/sku/217216/intel-xeon-platinum-8362-processor-48m-cache-2-80-ghz/specifications.html?wapkw=Intel%C2%AE%20Xeon%C2%AE%20Platinum%208362%20Processor",
             LaunchDate = new DateTime(2021, 5, 20),
             MaxMemorySizeGB = 6, // 4 TB
             MemoryTypes = "DDR4-3200",
@@ -214,7 +214,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
         },
 
         new() {
-            ProductCollection = "Intel® Xeon® 6 processors",
+            ProductCollection = "Intel® Xeon® 6978P Processor",
             CodeName = "Products formerly Granite Rapids",
             ProcessorNumber = "6978P",
             RecommendedCustomerPrice = 11025.00m,
@@ -224,7 +224,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
             ProcessorBaseFrequencyGHz = 3.2,
             Cache = "505 MB",
             TdpWatt = 500,
-            URL = "",
+            URL = "https://www.intel.com/content/www/us/en/products/sku/244340/intel-xeon-6978p-processor-504m-cache-2-10-ghz/specifications.html?wapkw=Intel%C2%AE%20Xeon%C2%AE%206978P%20Processor",
             LaunchDate = new DateTime(2025, 9, 5),
             MaxMemorySizeGB = 3, // 4 TB
             MemoryTypes = "DDR5(6400MT/s) MRDIMM(8800MT/s)",
@@ -234,7 +234,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
         },
 
         new() {
-            ProductCollection = "Intel® Xeon® 6 processors",
+            ProductCollection = "Intel® Xeon® 6962P Processor",
             CodeName = "Products formerly Granite Rapids",
             ProcessorNumber = "6962P",
             RecommendedCustomerPrice = 9925.00m,
@@ -244,7 +244,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
             ProcessorBaseFrequencyGHz = 2.7,
             Cache = "432 MB",
             TdpWatt = 500,
-            URL = "",
+            URL = "https://www.intel.com/content/www/us/en/products/sku/244339/intel-xeon-6962p-processor-432m-cache-2-70-ghz/specifications.html?wapkw=Intel%C2%AE%20Xeon%C2%AE%206962P%20Processor",
             LaunchDate = new DateTime(2025, 10, 6),
             MaxMemorySizeGB = 3, // 4 TB
             MemoryTypes = "DDR5(6400MT/s) MRDIMM(8800MT/s)",
@@ -254,7 +254,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
         },
 
         new() {
-            ProductCollection = "3rd Gen Intel® Xeon® Scalable Processors",
+            ProductCollection = "Intel® Xeon® Platinum 8380 Processor",
             CodeName = "Products formerly Ice Lake",
             ProcessorNumber = "8380",
             RecommendedCustomerPrice = 9359.00m,
@@ -264,7 +264,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
             ProcessorBaseFrequencyGHz = 2.3,
             Cache = "60 MB",
             TdpWatt = 270,
-            URL = "",
+            URL = "https://www.intel.com/content/www/us/en/products/sku/212287/intel-xeon-platinum-8380-processor-60m-cache-2-30-ghz/specifications.html?wapkw=Intel%C2%AE%20Xeon%C2%AE%20Platinum%208380%20Processor",
             LaunchDate = new DateTime(2021, 6, 9),
             MaxMemorySizeGB = 6, // 4 TB
             MemoryTypes = "DDR4-3200",
@@ -274,7 +274,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
         },
 
         new() {
-            ProductCollection = "3rd Gen Intel® Xeon® Scalable Processors",
+            ProductCollection = "Intel® Xeon® Platinum 8368 Processor",
             CodeName = "Products formerly Ice Lake",
             ProcessorNumber = "8368",
             RecommendedCustomerPrice = 7214.00m,
@@ -284,7 +284,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
             ProcessorBaseFrequencyGHz = 2.4,
             Cache = "57 MB",
             TdpWatt = 270,
-            URL = "",
+            URL = "https://www.intel.com/content/www/us/en/products/sku/212455/intel-xeon-platinum-8368-processor-57m-cache-2-40-ghz/specifications.html?wapkw=Intel%C2%AE%20Xeon%C2%AE%20Platinum%208368%20Processor",
             LaunchDate = new DateTime(2021, 7, 10),
             MaxMemorySizeGB = 6, // 4 TB
             MemoryTypes = "DDR4-3200",
@@ -294,7 +294,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
         },
 
         new() {
-            ProductCollection = "3rd Gen Intel® Xeon® Scalable Processors",
+            ProductCollection = "Intel® Xeon® Platinum 8368Q Processor",
             CodeName = "Products formerly Ice Lake",
             ProcessorNumber = "8368Q",
             RecommendedCustomerPrice = 7719.00m,
@@ -304,7 +304,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
             ProcessorBaseFrequencyGHz = 2.6,
             Cache = "57 MB",
             TdpWatt = 270,
-            URL = "",
+            URL = "https://www.intel.com/content/www/us/en/products/sku/212289/intel-xeon-platinum-8368q-processor-57m-cache-2-60-ghz/specifications.html?wapkw=Intel%C2%AE%20Xeon%C2%AE%20Platinum%208368Q%20Processor",
             LaunchDate = new DateTime(2021, 8, 15),
             MaxMemorySizeGB = 6, // 4 TB
             MemoryTypes = "DDR4-3200",
@@ -324,7 +324,7 @@ public class InMemoryProcessorRepository : IProcessorRepository
             ProcessorBaseFrequencyGHz = 2.5,
             Cache = "57 MB",
             TdpWatt = 270,
-            URL = "",
+            URL = "https://www.intel.com/content/www/us/en/products/sku/217246/intel-xeon-w3375-processor-57m-cache-up-to-4-00-ghz/specifications.html?wapkw=W-3375",
             LaunchDate = new DateTime(2021, 10, 20),
             MaxMemorySizeGB = 4, // 4 TB
             MemoryTypes = "DDR4-3200",
