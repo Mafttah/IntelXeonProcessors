@@ -53,7 +53,7 @@ static void PrintProcessorDetails(Processor processor)
     if (processor == null) return; // Best practice: Fast-fail yaklasimi. Amac: hatalardan kurtulmak 
 
     Console.WriteLine($"Model: {processor.ProductCollection} ({processor.ProcessorNumber})");
-    Console.WriteLine($"  Çekirdek/İzlek: {processor.TotalCores}/{processor.TotalThreads}");
+    Console.WriteLine($"  Çekirdek/İzlek(Core): {processor.TotalCores}/{processor.TotalThreads}");
     Console.WriteLine($"  Maks. Turbo Frekans: {processor.MaxTurboFrequencyGHz} / Base Frekans:{processor.ProcessorBaseFrequencyGHz} GHz");
     Console.WriteLine($"  TDP: {processor.TdpWatt}W");
     Console.WriteLine($"  Fiyat: ${processor.RecommendedCustomerPrice}");
