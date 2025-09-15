@@ -33,7 +33,19 @@ static async Task RunApp(IServiceProvider services)
         PrintProcessorDetails(processor);
     }
 
-    Console.WriteLine("✨ Sorgulama tamamlandı! ✨");
+    Console.WriteLine("\n- Core Sayisina Gore Siralama -");
+    foreach (var cpu in allProcessors)
+    {
+        Console.WriteLine($"{cpu.CodeName} - {cpu.TotalCores}/{cpu.TotalThreads} Cores");
+    }
+
+    Console.WriteLine("\n- Cache Sayisina Gore Siralama -\n");
+    foreach (var cpu in allProcessors)
+    {
+        Console.WriteLine($"{cpu.CodeName} - {cpu.Cache} Cache");
+    }
+
+    Console.WriteLine("\n✨ Sorgulama tamamlandı! ✨");
 }
 // Print islemi bu metod da yapiliyor.
 static void PrintProcessorDetails(Processor processor)
